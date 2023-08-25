@@ -1,0 +1,9 @@
+datasource:
+  url: jdbc:postgresql://localhost:5432/myhotel2
+  driver-class-name: org.postgresql.Driver
+  username: post2
+  password: 1966222234
+jpa:
+  hibernate:
+    ddl-auto: update
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
